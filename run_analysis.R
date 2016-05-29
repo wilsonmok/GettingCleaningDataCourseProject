@@ -39,7 +39,7 @@ run_analysis <- function() {
     activity_tbl <- tbl_df(activity) %>% mutate(activity=sub("_", " ", activity))
     
     #find all headers with mean or std
-    avg_std_headers <- grep("[^c](mean|std)[^c]", headers_tbl$name)
+    avg_std_headers <- grep("-(mean|std)\\(\\)", headers_tbl$name)
     selected_headers = sapply(headers_tbl$name[avg_std_headers], simplify_name)
 
     #loading test dataset
@@ -85,6 +85,10 @@ run_analysis <- function() {
 #  name - original feature name
 #
 simplify_name <- function(name) {
+    name <- gsub("Acc", "Acceleration", name)
+    name <- gsub("Gyro", "Gyroscope", name)
+    name <- gsub("Mag", "Magnitude", name)
+    
     new_name <- tolower(substring(gsub("[\\(\\)-]","",name),2))
     
     prefix = substr(name,1,1)
