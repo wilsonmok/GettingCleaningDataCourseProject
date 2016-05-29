@@ -74,3 +74,8 @@ This file provides the variables, the data, and describes transformations perfor
 * frequencybodybodygyroscopemagnitudestd
 * frequencybodybodygyroscopejerkmagnitudemean
 * frequencybodybodygyroscopejerkmagnitudestd
+
+Other fields
+* activity - The activity the subject is doing.
+* subject - The subject for the experiment.
+* dataset - The source of the original dataset (Test or Train).
