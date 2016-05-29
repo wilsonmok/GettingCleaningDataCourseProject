@@ -19,5 +19,5 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 <!-- -->
 
     uci_har_tbl <- run_analysis()
-    sub_act_groupped <- group_by(uci_har_tbl,subject,activity)
-    sub_act_mean <- summarize_each(groupSubAct,funs(mean))
+    sub_act_grouped <- group_by(uci_har_tbl,subject,activity)
+    sub_act_mean <- summarize_each(sub_act_grouped,funs(mean))
