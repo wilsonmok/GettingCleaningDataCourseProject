@@ -16,6 +16,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 * The UCI Human Activity Recognition dataset is to be placed on the main directory and named "UCI HAR Dataset"
 
 ### Example: means of all the variables grouped by subject and activity.
-uci_har_tbl <- run_analysis()
-sub_act_groupped <- group_by(uci_har_tbl,subject,activity)
-sub_act_mean <- summarize_each(groupSubAct,funs(mean))
+<!-- -->
+
+    uci_har_tbl <- run_analysis()
+    sub_act_groupped <- group_by(uci_har_tbl,subject,activity)
+    sub_act_mean <- summarize_each(groupSubAct,funs(mean))
