@@ -8,44 +8,80 @@ This file provides the variables, the data, and describes transformations perfor
 * The dataset only contains mean and standard derivation (std) information.
 
 ### Variables and data
+Mean value for time body acceleration information on the XYZ axis
 * timebodyaccelerationmeanx
 * timebodyaccelerationmeany
 * timebodyaccelerationmeanz
+
+Standard derivation for time body acceleration information on the XYZ axis
 * timebodyaccelerationstdx
 * timebodyaccelerationstdy
 * timebodyaccelerationstdz
+
+Mean value for time gravity acceleration information on the XYZ axis
 * timegravityaccelerationmeanx
 * timegravityaccelerationmeany
 * timegravityaccelerationmeanz
+
+Standard derivation for time gravity acceleration information on the XYZ axis
 * timegravityaccelerationstdx
 * timegravityaccelerationstdy
 * timegravityaccelerationstdz
+
+Mean value for jerk signal derived from time body acceleration on the XYZ axis
 * timebodyaccelerationjerkmeanx
 * timebodyaccelerationjerkmeany
 * timebodyaccelerationjerkmeanz
+
+Standard derivation for jerk signal derived from time body acceleration on the XYZ axis
 * timebodyaccelerationjerkstdx
 * timebodyaccelerationjerkstdy
-* timebodyaccelerationjerkstdz
+* timebodyaccelerationjerkstdz 
+
+Mean value for time body gyroscope information on the XYZ axis
 * timebodygyroscopemeanx
 * timebodygyroscopemeany
 * timebodygyroscopemeanz
+ 
+Standard derivation for time body gyroscope information on the XYZ axis
 * timebodygyroscopestdx
 * timebodygyroscopestdy
 * timebodygyroscopestdz
+
+Mean value for jerk signal derived from time body gyroscope on the XYZ axis
 * timebodygyroscopejerkmeanx
 * timebodygyroscopejerkmeany
 * timebodygyroscopejerkmeanz
+
+Standard derivation for jerk signal derived from time body gyroscope on the XYZ axis
 * timebodygyroscopejerkstdx
 * timebodygyroscopejerkstdy
 * timebodygyroscopejerkstdz
+
+Mean value for the magnitude on time body acceleration
 * timebodyaccelerationmagnitudemean
+
+Standard derivation for the magnitude on time body acceleration
 * timebodyaccelerationmagnitudestd
+
+Mean value for the magnitude on time gravity acceleration
 * timegravityaccelerationmagnitudemean
+
+Standard derivation for the magnitude on time gravity acceleration
 * timegravityaccelerationmagnitudestd
+
+Mean value for the magitude on jerk signal dervied from time body acceleration
 * timebodyaccelerationjerkmagnitudemean
+
+Standard derivation for the magitude on jerk signal dervied from time body acceleration
 * timebodyaccelerationjerkmagnitudestd
+
+Mean value for the magitude on jerk signal dervied from time body gyroscope
 * timebodygyroscopemagnitudemean
+
+Standard derivation for the magitude on jerk signal dervied from time body gyroscope
 * timebodygyroscopemagnitudestd
+
 * timebodygyroscopejerkmagnitudemean
 * timebodygyroscopejerkmagnitudestd
 * frequencybodyaccelerationmeanx
